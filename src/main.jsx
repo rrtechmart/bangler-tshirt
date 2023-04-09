@@ -9,6 +9,7 @@ import './index.css'
 import Home from './Components/Home/Home';
 import Main from './Components/Layout/Main';
 import OrdersReview from './Components/OrdersReview/OrdersReview';
+import TShirts from './Components/TShirt/TShirts';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
       {
         path:'/ordersReview',
         element: <OrdersReview></OrdersReview>
-      }
+      },
+      {
+        path:'/tshirts',
+        element: <TShirts></TShirts>
+      },
     ]
   }
   
